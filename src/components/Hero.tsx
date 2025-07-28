@@ -14,7 +14,7 @@ const GridPatternBackground = () => {
       const { clientX, clientY } = e;
       const element = document.getElementById('spotlight');
       if (element) {
-        element.style.background = `radial-gradient(circle at ${clientX}px ${clientY}px, rgba(0, 190, 190, 0.1) 0%, transparent 25%)`;
+        element.style.background = `radial-gradient(circle at ${clientX}px ${clientY}px, rgba(0, 190, 190, 0.1) 0%, transparent 10%)`;
       }
     };
     window.addEventListener('mousemove', handleMouseMove);
@@ -74,9 +74,6 @@ export const Hero = () => {
             className="mt-2 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-neutral-400"
             variants={itemVariants}
           >
-            {hero.subtitle}
-          </motion.h2>
-          <motion.div className="h-8 mt-4" variants={itemVariants}>
             <TypeAnimation
                 sequence={[...hero.roles]} 
                 wrapper="span"
@@ -84,7 +81,7 @@ export const Hero = () => {
                 className="text-xl font-medium text-neutral-500"
                 repeat={Infinity}
               />
-          </motion.div>
+          </motion.h2>
           <motion.p
             className="mt-6 max-w-xl text-lg leading-relaxed text-neutral-400"
             variants={itemVariants}

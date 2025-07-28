@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tus otros estilos pueden ir aquí abajo */
+
 body {
     font-family: 'Inter', sans-serif;
   }
