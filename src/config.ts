@@ -6,8 +6,8 @@ export const CONFIG = {
     email: "efran.quispe13@gmail.com",
     resumeUrl: "/cv-jeferson-efran.pdf",
     socials: [
-      { name: 'GitHub', url: 'https://github.com/tu_usuario', Icon: Github },
-      { name: 'LinkedIn', url: 'https://linkedin.com/in/tu_usuario', Icon: Linkedin },
+      { name: 'GitHub', url: 'https://github.com/EFRAN033', Icon: Github },
+      { name: 'LinkedIn', url: 'https://www.linkedin.com/in/efran-quispe-castilla-53b579240/', Icon: Linkedin },
     ],
   },
   nav: {
